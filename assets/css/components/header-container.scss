@@ -8,15 +8,25 @@
 
     > .title-name { 
         position: absolute;
-        bottom: $spacing-unit * 2;
-        right: $spacing-unit * 2;
-        font-size: 4em;
+        bottom: $spacing-unit;
+        right: $spacing-unit;
+        font-size: 3em;
         line-height: 100%;
         font-weight: 200;
         letter-spacing: 5px;
+        
+        @include media-sm {
+            font-size: 4em;
+            bottom: $spacing-unit * 2;
+            right: $spacing-unit * 2;
+        }
     }
 
     > .navigation-menu {
-        padding: $spacing-unit * 2;
+        padding: $spacing-unit;
+
+        @include media-sm {
+            padding: $spacing-unit * 2;
+        }
     }
 }

@@ -1,5 +1,9 @@
 .section-block {
-    padding: 0 $spacing-unit * 2;
+    padding: 0 $spacing-unit;
+
+    @include media-sm {
+        padding: 0 $spacing-unit * 2;
+    }
 
     > .title {
         text-align: center;
