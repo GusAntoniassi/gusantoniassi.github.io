@@ -23,10 +23,17 @@
     }
 
     > .navigation-menu {
-        padding: $spacing-unit;
-
+        position: absolute;
+        top: $spacing-unit;
+        right: $spacing-unit;
+        
         @include media-sm {
-            padding: $spacing-unit * 2;
+            top: $spacing-unit * 2;
+            right: $spacing-unit * 2;
         }
+    }
+
+    > .node-canvas {
+        opacity: .3;
     }
 }

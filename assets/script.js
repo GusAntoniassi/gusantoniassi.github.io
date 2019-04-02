@@ -1,1 +1,0 @@
-zenscroll.setup(null, -7)

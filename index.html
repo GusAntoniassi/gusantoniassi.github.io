@@ -17,6 +17,8 @@
 </head>
 <body>
     <header class="header-container" id="topo">
+        <canvas class="node-canvas"></canvas>
+
         <nav class="navigation-menu">
             <span class="hamburger">☰</span>
             <ul class="inline-list menu-list">
@@ -43,7 +45,9 @@
 
         <div class="card-list">
             <div class="card-item">
-                <img class="image" width="255" height="255" src="assets/img/medidor-thumb.jpeg" />
+                <a href="assets/img/medidor-full.jpeg" data-fancybox="projetos">
+                    <img class="image" width="255" height="255" src="assets/img/medidor-thumb.jpeg" />
+                </a>
                 <div class="description">
                     <a href="https://sites.google.com/edu.unipar.br/medidor-pressao-wifi" target="_blank">
                         Desenvolvimento de um medidor de pressão arterial integrado com Wi-Fi. Vencedor do prêmio Inovar para o Paraná 2018, promovido pela Google for Education.
@@ -51,7 +55,9 @@
                 </div>
             </div>
             <div class="card-item">
-                <img class="image" width="255" height="255" src="assets/img/rastreador-thumb.jpg" />
+                <a href="assets/img/rastreador-full.jpg" data-fancybox="projetos">
+                    <img class="image" width="255" height="255" src="assets/img/rastreador-thumb.jpg" />
+                </a>
                 <div class="description">
                     <a href="https://github.com/GusAntoniassi/rastreador-client-electron" target="_blank">
                         Desenvolvimento de um rastreador veicular embarcado desenvolvido em Electron e executado em um Orange Pi PC. Trabalho de conclusão de curso UNIPAR.
@@ -59,7 +65,9 @@
                 </div>
             </div>
             <div class="card-item">
-                <img class="image" width="255" height="255" src="assets/img/maquete-thumb.png" />
+                <a href="assets/img/maquete-full.png" data-fancybox="projetos">
+                    <img class="image" width="255" height="255" src="assets/img/maquete-thumb.png" />
+                </a>
                 <div class="description">
                     <a href="https://github.com/GusAntoniassi/maquete-cisi" target="_blank">
                         Elaboração de uma maquete + app de automação residencial com Arduino e Raspberry Pi. Controle de luzes, câmera, porta e temperatura do ar condicionado.
@@ -123,7 +131,12 @@
         <div class="copyright">Desenvolvido por Gustavo Antoniassi</div>
     </section>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
     <script type="text/javascript" src="assets/js/zenscroll.min.js"></script>
-    <script type="text/javascript" src="assets/script.js"></script>
+    <script type="text/javascript" src="assets/js/node-effect.js"></script>
 </body>
 </html>
