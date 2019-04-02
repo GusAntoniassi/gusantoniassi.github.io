@@ -1,0 +1,52 @@
+.form-group {
+    width: 100%;
+    display: block;
+    float: none;
+    clear: both;
+    margin-bottom: $spacing-unit * 1.5;
+
+    > .label {
+        display: block;
+        font-family: $accent-font;
+        color: #666;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    > .input {
+        height: 50px;
+        width: 100%;
+        box-shadow: 0 2px 7px rgba(0,0,0,0.25);
+        border: none;
+        color: $text-color;
+        padding: 10px;
+        border: 1px solid transparent;
+        transition: .2s all ease-out;
+    }
+
+    > .input:focus {
+        outline: none;
+        border: 1px solid rgba($accent-color, 0.5);
+    }
+
+    > .textarea {
+        height: auto;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    @include media-md {
+        &.-half {
+            width: 47.5%;
+            margin-right: 5%;
+            float: left;
+            clear: none;
+        }
+    
+        &.-half:nth-of-type(2n) {
+            margin-right: 0;
+        }
+    }
+}

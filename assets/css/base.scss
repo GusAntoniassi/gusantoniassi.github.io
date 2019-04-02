@@ -1,0 +1,33 @@
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Verdana', 'Arial', sans-serif;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Oswald', 'Open Sans', 'Verdana', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+a {
+    text-decoration: none;
+    color: $accent-color;
+}
+
+button {
+    padding: $spacing-unit $spacing-unit * 2;
+    background: $accent-color;
+    border: 1px solid $accent-color;
+    transition: 0.2s all ease-out;
+    color: #fff;
+    font-family: $accent-font;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

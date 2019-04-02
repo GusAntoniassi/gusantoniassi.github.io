@@ -1,0 +1,34 @@
+/**
+ * É o lugar onde você vai guardar seus mixins e funções 
+ * necessárias para a construção de seus layouts. Pode ser 
+ * qualquer coisa, desde mixins de font-face, até mixins de 
+ * animações, etc. Repare que aqui, nada é gerado diretamente 
+ * como CSS final também.
+ */
+
+@mixin media-sm {
+    @media (min-width: 675px) {  
+		@content;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@mixin media-md {
+    @media (min-width: 768px) {  
+		@content;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@mixin media-lg {
+    @media (min-width: 992px) { 
+		@content;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@mixin media-xl {
+    @media (min-width: 1305px) {  
+		@content;
+    }
+}

@@ -1,0 +1,18 @@
+.footer-container {
+    $height: 110px;
+    height: $height;
+    color: #fff;
+    margin-top: $spacing-unit * 2;
+
+    background: #231B2B; /* Old browsers */
+    background: linear-gradient(to bottom, #231B2B 0%,#19131F 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    > .copyright { 
+        font-family: $accent-font;
+        font-weight: 200;
+        text-align: center;
+        line-height: $height;
+        font-size: 1.5em;
+        letter-spacing: 3px;
+    }
+}

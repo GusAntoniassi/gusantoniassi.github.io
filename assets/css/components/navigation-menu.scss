@@ -1,0 +1,22 @@
+.navigation-menu {
+    text-align: right;
+
+    > .hamburger {
+        display: none;
+    }
+
+    > .menu-list .item {
+        text-transform: uppercase;
+        font-family: $accent-font;
+        font-weight: 200;
+    }
+    > .menu-list .item:not(:last-of-type):after {
+        content: "|";
+    }
+    > .menu-list .link {
+        color: #fff;
+    }
+    > .menu-list .link:hover {
+        color: #fff;
+    }
+}

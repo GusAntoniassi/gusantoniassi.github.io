@@ -1,0 +1,12 @@
+.section-block {
+    padding: 0 $spacing-unit * 2;
+
+    > .title {
+        text-align: center;
+        font-size: 3em;
+        color: $accent-color;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        padding: $spacing-unit * 3 0;
+    }
+}

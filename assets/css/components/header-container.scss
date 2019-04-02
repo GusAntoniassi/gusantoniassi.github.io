@@ -1,0 +1,22 @@
+.header-container {
+    height: 400px;
+    color: #fff;
+    position: relative;
+
+    background: #231B2B; /* Old browsers */
+    background: linear-gradient(to bottom, #231B2B 0%,#19131F 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    > .title-name { 
+        position: absolute;
+        bottom: $spacing-unit * 2;
+        right: $spacing-unit * 2;
+        font-size: 4em;
+        line-height: 100%;
+        font-weight: 200;
+        letter-spacing: 5px;
+    }
+
+    > .navigation-menu {
+        padding: $spacing-unit * 2;
+    }
+}

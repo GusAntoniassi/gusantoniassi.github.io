@@ -1,0 +1,21 @@
+/**
+ * Essas são as configurações básicas da sua arquitetura. 
+ * Em geral, são as variáveis globais que vão definir cores, 
+ * espaçamentos e outras configurações desejadas para o 
+ * funcionamento do seu framework em si. Perceba que nada 
+ * aqui será gerado como CSS final, sendo somente utilizado 
+ * na criação.
+ */
+
+$spacing-unit: 15px;
+$font-size: 16px;
+
+// Fonts
+$default-font: 'Open Sans', 'Verdana', 'Arial', sans-serif;
+$accent-font: 'Oswald', 'Open Sans', 'Verdana', sans-serif;
+
+// Colors
+$accent-color: #382848;
+$background-color: #fff;
+$text-color: #444;
+$text-color-alt: #fff;
