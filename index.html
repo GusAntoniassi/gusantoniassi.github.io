@@ -138,5 +138,15 @@
 
     <script type="text/javascript" src="assets/js/zenscroll.min.js"></script>
     <script type="text/javascript" src="assets/js/node-effect.js"></script>
+
+    <script>
+        $('[data-fancybox="projetos"]').fancybox({
+            caption : function( instance, item ) {
+                var caption = $(this).siblings('.description').find('a').text() || '';
+        
+                return caption;
+            }
+        });
+    </script>
 </body>
 </html>
